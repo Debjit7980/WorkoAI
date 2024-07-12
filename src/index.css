@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-gradient {
+    background: linear-gradient(to bottom, #5C469C, #0C134F 70%);
+    box-shadow: 0 20px 100px 30px black;
+  }
+.custom-gradient-box{
+    background: linear-gradient(to bottom,#8f289c, #230946 70%); 
+    box-shadow: 0 20px 80px black;
+
+}
+.middle{
+    background: linear-gradient(to bottom,#8f289c, #230946 70%);
+    box-shadow: 0px 20px 100px 30px #03001C;
+}
+.last{
+    background: linear-gradient(to bottom,#8f289c, #230946 70%);
+    box-shadow: 0px 0px 100px 40px black ;
+}
+.form{
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.gradient-btn{
+    background: linear-gradient(to right, #8f289c ,#472f8f 70%);
+}
+  input{
+    border:1px solid #472f8f;
+  }
+  
+  input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width:14px;
+    height: 14px;
+    border: 1px solid #472f8f;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  input[type="checkbox"]:checked {
+    background-color: #5C469C;
+    border: 2px solid #5C469C;
+    position: relative;
+  }
+
+  /* Create a checkmark */
+  input[type="checkbox"]:checked::after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+  }
+  .spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-left-color: #ffffff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+.candidate-form{
+  box-shadow: 0 0 20px 0px  #45248b inset;
+}
+.candidate::-webkit-scrollbar{
+  display: none;
+}
+  
