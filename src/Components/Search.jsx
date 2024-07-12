@@ -14,7 +14,7 @@ function Search({ placeholder1, placeholder2, onSearch }) {
 
     return (
         <div>
-            <form className='p-4 form flex flex-col w-[72%] mx-auto mt-[35  %] gap-[2rem] items-center justify-center' onSubmit={handleSearch}>
+            <form className='p-4 form flex flex-col w-[72%] mx-auto mt-[35%] gap-[2rem] items-center justify-center' onSubmit={handleSearch}>
                 <div>
                     <svg width="120px" height="120px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M22 11.8201C22 9.84228 21.4135 7.90885 20.3147 6.26436C19.2159 4.61987 17.6542 3.33813 15.8269 2.58126C13.9996 1.82438 11.9889 1.62637 10.0491 2.01223C8.10927 2.39808 6.32748 3.35052 4.92896 4.74904C3.53043 6.14757 2.578 7.92935 2.19214 9.86916C1.80629 11.809 2.00436 13.8197 2.76123 15.6469C3.51811 17.4742 4.79985 19.036 6.44434 20.1348C8.08883 21.2336 10.0222 21.8201 12 21.8201" stroke="#472f8f" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
