@@ -1,9 +1,9 @@
 # React + Vite
 # The Site is deployed on Netlify: https://grand-mooncake-7d54d0.netlify.app/
 
-<h1> This site contains one Index Page, Login Page and Candidate Home Page.
-Users can signup and the details will be getting stored in the local storage, Using those details users can login, once logged in the users do not need to do relogin whenever he comes back.
-There is a Logout option which will remove the details from the local storage and the user will be logged out. </h1>
+<h5> This site contains one Index Page, Login Page and Candidate Home Page.
+Users can signup and the details will be stored in the local storage. Using those details users can login, once logged in the users do not need to do relogin whenever he comes back.
+There is a Logout option which will remove the details from the local storage and the user will be logged out. </h5>
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
